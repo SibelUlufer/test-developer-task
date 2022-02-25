@@ -1,0 +1,4 @@
+{
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/integration/"
+  }

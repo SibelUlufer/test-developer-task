@@ -1,0 +1,13 @@
+{
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "baseUrl": "http://localhost:3000/#",
+  "testFiles": "**/*.feature",
+  "projectId": "h4iuh3"
+}
