@@ -22,6 +22,7 @@ class addAsset extends BasePage{
     //creates random correct formatted asset name
     static createAsset(){
         cy.setAsset('', '[testid="asset-name"]')
+    
     }
     //enables to click button
     static clickButton(){
@@ -61,5 +62,10 @@ class addAsset extends BasePage{
     static closePopup(){
         cy.clickButton('[data-test="button"][type="button"]')
     }
+    static typeSameAsset(){
+        cy.typeCommand( '[data-test="datatable-input"]',Cypress.env('assetName'))
+
+    }
+    
 }
 export default addAsset

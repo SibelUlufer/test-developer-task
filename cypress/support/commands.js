@@ -34,5 +34,6 @@ Cypress.Commands.add('setAsset', (Textpattern,selector)=>{
     randomNumber+=NumberPattern.charAt(Math.floor(Math.random() * NumberPattern.length))
     assetText = randomText + randomNumber
     cy.typeCommand(selector,String(assetText))
+    Cypress.env('assetName',assetText)
 })
 

@@ -28,7 +28,7 @@ class existingAssets extends basePage{
     }
     //creates random correct formatted asset name
     static createAsset(){
-        cy.setAsset('ABCDEFGHIJKLMNOPQRSTUVWXYZ','[data-test="datatable-input"]')
+        cy.setAsset('','[data-test="datatable-input"]')
     }
     //enables to assert no listing item
     static listNoAsset(){

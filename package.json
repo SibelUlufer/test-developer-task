@@ -36,8 +36,7 @@
     "deploy": "gh-pages -d build",
     "precommit": "lint-staged",
     "cy:open": "npx cypress open",
-    "py:venv":"py -3 -m venv .venv"
-    
+    "py:venv": "py -3 -m venv .venv"
   },
   "lint-staged": {
     "*.{js,json,css,md}": [
@@ -47,7 +46,7 @@
   },
   "homepage": "https://elinvar.de/",
   "devDependencies": {
-    "cypress": "^9.5.0",
+    "cypress": "^9.5.1",
     "cypress-recurse": "^1.13.1"
   }
 }
